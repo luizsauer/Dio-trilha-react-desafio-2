@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div`
 
-    border: 1px solid #FAFAFA;
-    border-radius: 20px;
+    border: 1px solid #FFF;
+    border-radius: 15px;
 
-    height: 62px;
-    width: 80%;
+    height: 50px;
+    width: 50%;
 
     margin: 20px;
     
@@ -17,8 +17,9 @@ export const InputContainer = styled.div`
         width: 90%;
         height: 62px;
         padding: 0 20px;
-        color: #FFFFFF;
+        color: #FFF;
         font-size: 20px
     }
 
 `
+

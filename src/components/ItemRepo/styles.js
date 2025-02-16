@@ -1,3 +1,30 @@
+// import styled from "styled-components";
+
+// export const ItemContainer = styled.div`
+//     width: 80%;
+
+//     h3 {
+//         font-size: 32px;
+//         color: #FAFAFA;
+//     }
+
+//     p {
+//         font-size:16px;
+//         color: #FAFAFA60;
+//         margin-bottom:20px;
+//     }
+
+//     a.remover {
+//         color: #FF0000;
+//         margin-top:20px;
+//     }
+
+//     hr {
+//         color: #FAFAFA60;
+//         margin: 20px 0;
+//     }
+// `
+
 import styled from "styled-components";
 
 export const ItemContainer = styled.div`
@@ -5,7 +32,7 @@ export const ItemContainer = styled.div`
 
     h3 {
         font-size: 32px;
-        color: #FAFAFA;
+        color: #FFF;
     }
 
     p {
@@ -13,14 +40,12 @@ export const ItemContainer = styled.div`
         color: #FAFAFA60;
         margin-bottom:20px;
     }
-
-    a.remover {
-        color: #FF0000;
-        margin-top:20px;
+    a {
+        color:rgb(122, 84, 84);
+        margin-top:15px;
     }
-
     hr {
-        color: #FAFAFA60;
-        margin: 20px 0;
+        color: #FAFAFA90;
+        margin: 15px 0;
     }
 `
